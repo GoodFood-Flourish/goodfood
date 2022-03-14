@@ -32,4 +32,3 @@ Route::get('/catering', function () {
 Route::get('/everyday', function () {
     return view('everyday/index');
 });
-
