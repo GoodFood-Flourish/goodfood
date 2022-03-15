@@ -1,0 +1,39 @@
+.bg-main-purple {
+    background-color: #66455a;
+}
+
+.z-index-3 {
+    z-index: 300;
+}
+
+.h-40 {
+    height: 40px;
+}
+.w-40 {
+    width: 40px;
+}
+
+.mt-10 {
+    margin-top: 160px;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+
+
+/* footer  */
+.footer-copyright {
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+
+.footer-copyright p {
+    display: flex;
+    padding-left: 20px;
+    font-family: "Andada Pro", serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
