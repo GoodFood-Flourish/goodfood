@@ -22,16 +22,35 @@
       <section class="quoete mt-10">
         <div class="container">
           <div class="row">
-            <div class="col-lg-9 border p-5">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur praesentium possimus voluptate
-                voluptatem iste est quae quibusdam? Fugiat, atque, aspernatur aperiam provident alias, error eveniet
-                architecto placeat praesentium modi nihil!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure iusto labore quisquam, vero atque
-                nam quos libero vel architecto, accusamus in nesciunt ex perspiciatis a nemo et autem sapiente non
-                voluptatum quibusdam ullam repudiandae. Veritatis molestiae consequuntur saepe quae neque, earum porro
-                corrupti iure quam tempora! Eos, nulla quasi.</p>
+            <div class="col-lg-9">
+              <p class="col-md-4">Lorem ipsum dolor sit amet, cons
+                  ectetuer adipiscing elit, sed diam
+                  nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam
+                  erat volutpat. Ut wisi enimlobortis
+                  nisl ut illum dolore eu feugiat
+                  nulla facilisis at vero eros et</p>
             </div>
           </div>
+      </section>
+      <section class="section-page">
+          <div class="container"> 
+            <h5>ORDER FORM</h5>
+            <div class="container">
+                <div class="mb-3">
+                    <input type="name" class="form-control" id="name" placeholder="Name">
+                    <input type="email" class="form-control" id="email" placeholder="Email@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+          </div>
+
+
       </section>
   </main>
 <section></section>
