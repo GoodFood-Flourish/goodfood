@@ -37,6 +37,11 @@
 }
 .overlay-text {padding: 150px 50px;}
 
+.btn-all{
+    background-color: #66455A;
+    color: #ffff;
+}
+
 /* footer  */
 .footer-copyright {
     margin-top: 15px;
@@ -178,4 +183,36 @@
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr;
+}
+
+/* Content Catering Page */
+.content-notes p{
+    font-size: 16px;
+}
+.order-form{
+    width: 900px;
+    margin: 0 auto;
+
+}
+.content-gfe{
+    display: flex;
+    justify-content: center;
+}
+
+.content-gfe img{
+    width : 450px;
+    height: 370px;
+}
+
+.content-gfe p{
+    font-size: 18px;
+}
+
+.content-gfe h3{
+    color: #66455A;
+    text-transform: uppercase;
+}
+
+.content-gfe-paragraf{
+    padding-left: 50px;
 }
