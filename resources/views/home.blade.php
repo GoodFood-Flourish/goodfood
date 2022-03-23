@@ -53,8 +53,12 @@
           </div>
       </section>
       <section class="section-page">
-        <div class="container">
+          <div class="container">
             <img src="../images/img-content.png" class="img-thumbnail" alt="...">
+          </div>
+      </section>
+      <section class="section-page">
+        <div class="container">
             <div class="food-banner-text-section">
                 <div class="food-banner-text-container">
                     <div class="food-banner-text-content">
@@ -84,22 +88,175 @@
           <img src="../images/frame2.svg" alt="frame">
         </div>
       </section>
+      <section class="section-page"></section>
       <section class="section-page">
-            <div class="row position-relative">
-                <div class="col-lg-6 content-catering">
-                    <img src="../images/everyday.png" alt="">
+        <div class="food-banner-section">
+            <div class="food-banner-container">
+                <div class="food-banner-content">
+                    <a href="/everyday">
+                        <img src="../images/everyday.png">
+                    </a>
                 </div>
-                <div class="col-lg-6 content-catering">
-                    <img src="../images/catering-1.png" alt="frame">
+                <div class="food-banner-content">
+                    <a href="/catering">
+                        <img src="../images/catering-1.png">
+                    </a>
                 </div>
-              </div>
-          </div>
+            </div>
+        </div>
       </section>
       <section class="section-page hero position-relative">
         <div class="position-absolute top-100 start-50 translate-middle">
           <img src="../images/frame3.svg" alt="frame">
         </div>
       </section>
+      <section class="section-page"></section>
+      <section class="section-page">
+          <div class="container">
+              <h3>Cuisines</h3>
+              <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item multicarousel active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <div class="carousel-caption">
+                                                <h2>Indonesian</h2>
+                                            </div>
+                                            <a href="#">
+                                                <img class="img-fluid" alt="100%x280" src="../images/indonesia_thumb.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <div class="carousel-caption">
+                                                <h2>Indian</h2>
+                                            </div>
+                                            <a href="#">
+                                                <img class="img-fluid" alt="100%x280" src="../images/indian_thumb.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <div class="carousel-caption text text-center">
+                                                <h2>Mexican</h2>
+                                            </div>
+                                            <a href="#">
+                                                <img class="img-fluid" alt="100%x280" src="../images/mexican_thumb.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item multicarousel">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="../images/mexican_thumb.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri2.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri3.png">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev carousel-control-prev-sqres" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next carousel-control-next-sqres" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="section-page">
+            <div id="carouselContent" class="carousel slide" data-ride="carousel" style="background-color: #E8E3E6;">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active text-center p-4">
+                         <p class="col-md-12">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut illum dolore eu feugiat nulla facilisis at vero eroswisi enim ad minim
+                            veniam, quis nostrud Ssed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci  elit, sed diam nonummy nibh euismod</p>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+
+                        <p>lorem ipsum (imagine longer text)</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+      </section>
+      <section class="section-page">
+      </section>
+      <section class="section-page hero position-relative">
+        <div class="position-absolute top-100 start-50 translate-middle">
+          <img src="../images/frame4.svg" alt="frame">
+        </div>
+      </section>
+      <section class="section-page"></section>
+      <section class="section-page">
+        <div class="container">
+            <form role="form" method="" action="">
+                <h3 class="text text-center">Sign up NOW TO GET OUR NEWSLETTER</h3>
+                <div class="order-form">
+                    <div class="row">
+                            <div class="col-md-12">
+                            <div class="form-group my-5">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Name"
+                                aria-label="Name"
+                                name=""
+                                id=""
+                            />
+                            </div>
+                            <div class="form-group my-5">
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Email Address"
+                                aria-label="name@example.com"
+                                name=""
+                                id=""
+                            />
+                            </div>
+                            <button type="button" class="button-contact mt-3" style="float: right;background-color: #66455A;
+                            color: #ffff;">
+                                SUBSCRIBE
+                            </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </section>
     </div>
   </main>
 
