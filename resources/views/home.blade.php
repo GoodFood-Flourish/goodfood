@@ -255,8 +255,8 @@
                         </div>
                     </div>
                 </form>
-        </div>
-    </section>
+            </div>
+        </section>
     </div>
   </main>
 
