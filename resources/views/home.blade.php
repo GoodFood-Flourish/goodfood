@@ -1,3 +1,7 @@
+@extends('layout.master')
+
+@section('title', 'Home')
+
 @section('content')
     <!-- Hero Home  -->
     <main>
@@ -87,7 +91,6 @@
                         </div>
                     </div>
                 </div>
-              </div>
             </div>
         </section>
         <section class="section-page hero position-relative">
@@ -265,5 +268,7 @@
         </section>
         </div>
     </main>
+
     </div>
-</html>
+
+@endsection
