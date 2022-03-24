@@ -45,6 +45,11 @@
     color: #ffff;
 }
 
+h3 {
+    color: #66455a;
+    text-transform: uppercase;
+}
+
 /* footer  */
 .footer-copyright {
     margin-top: 15px;
@@ -114,6 +119,17 @@
     align-content: center;
 }
 /* ================== FOOD BANNER CONTENT ==================*/
+.food-banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0;
+}
+
+.food-banner-content img {
+    width: 100%;
+    background-size: cover;
+}
+
 .food-banner-text-section {
     margin-bottom: 50px;
 }
@@ -188,6 +204,13 @@
     grid-template-columns: 1fr 1fr;
 }
 
+/* Content Home Page */
+.carousel-caption {
+    font-size: 18px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
 /* Content Catering Page */
 .content-notes p {
     font-size: 16px;
@@ -214,7 +237,6 @@
     color: #66455a;
     text-transform: uppercase;
 }
-
-.content-gfe-paragraf {
+*/ .content-gfe-paragraf {
     padding-left: 50px;
 }

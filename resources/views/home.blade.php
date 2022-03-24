@@ -128,6 +128,7 @@
           <img src="../images/frame2.svg" alt="frame">
         </div>
       </section>
+      <section class="section-page"></section>
       <section class="section-page">
         <div class="row position-relative">
           <div class="col-lg-6 content-catering">
