@@ -1,20 +1,17 @@
-@extends('layout.master')
+@include('layouts.header')
 
-@section('title', 'Home')
-
-@section('content')
 <!-- Hero Home  -->
 <main>
     <section class="vh-100 hero position-relative">
         <div class="position-absolute position-absolute top-50 start-50 translate-middle z-index-3">
-            <img src="../images/goodfood-catering-logo.png" alt="goodfood catering logo">
+            <img src="{{ asset('/images/goodfood-catering-logo.png') }}" alt="goodfood catering logo">
         </div>
         <div class="d-flex bg-info justify-content-center align-items-center w-100 h-100 overflow-hidden">
             <div class="bg-dark opacity-50 position-absolute top-0 bottom-0 start-0 end-0"></div>
-            <img src="../images/hero_catering.png" alt="hero catering image">
+            <img src="{{ asset('/images/hero_catering.png') }}" alt="hero catering image">
         </div>
         <div class="position-absolute top-100 start-50 translate-middle">
-            <img src="../images/frame.svg" alt="frame">
+            <img src="{{ asset('/images/frame.svg') }}" alt="frame">
         </div>
     </section>
     <section class="quoete mt-10">
@@ -89,7 +86,8 @@
                                 <div class="row">
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri1.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri1.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -98,7 +96,8 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri2.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri2.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -106,7 +105,8 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri3.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri3.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -118,7 +118,8 @@
                                 <div class="row">
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri1.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri1.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -127,7 +128,8 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri2.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri2.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -135,7 +137,8 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="../images/img_galeri3.png">
+                                            <img class="img-fluid" alt="100%x280"
+                                                src="{{ asset('/images/img_galeri3.png') }}">
                                             <div class="card-body">
 
                                             </div>
@@ -165,7 +168,7 @@
     <section class="section-page">
         <div class="container content-gfe">
             <div class="card">
-                <img src="../images/everyday.png" class="img-fluid" alt="100%x280">
+                <img src="{{ asset('/images/everyday.png') }}" class="img-fluid" alt="100%x280">
             </div>
             <div class="col-md-4 mb-3 content-gfe-paragraf">
                 <h3> Good Food Everyday</h3>
@@ -181,4 +184,4 @@
         </div>
     </section>
 </main>
-@endsection
+@include('layouts.footer')
